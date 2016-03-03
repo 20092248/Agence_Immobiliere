@@ -2,10 +2,10 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
   <servlet>
   <servlet-name>cs</servlet-name>
-  <servlet-class>web.ControlerServlet</servlet-class>
+  <servlet-class>controleur.controleur_index</servlet-class>
   </servlet>
   <servlet-mapping>
   <servlet-name>cs</servlet-name>
-  <url-pattern>/controler</url-pattern>		
+  <url-pattern>/agence_immobiliere</url-pattern>		
   </servlet-mapping>
 </web-app>
