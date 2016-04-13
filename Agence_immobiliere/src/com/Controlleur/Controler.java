@@ -20,7 +20,7 @@ public class Controler extends HttpServlet
             throws ServletException, IOException 
 	{
         response.setContentType("text/html;charset=UTF-8");
-      
+		 //this.getServletContext().getRequestDispatcher( "/Connexion.jsp" ).forward( request, response );
     }
 
 	 protected void doGet(HttpServletRequest request, HttpServletResponse response)

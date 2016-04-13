@@ -6,7 +6,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Controler</servlet-name>
-        <url-pattern>/Controler/*</url-pattern>
+        <url-pattern>/agence</url-pattern>
     </servlet-mapping>
     
     <welcome-file-list>
